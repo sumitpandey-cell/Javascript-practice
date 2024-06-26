@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px,solid, rgb(207, 199, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 5px 30px;
+    gap: 25px;
+}
+.quizHead{
+    width: 100%;
+}
+.quizHead h1{
+    padding-bottom: 10px;
+}
+
+.border{
+    border: 0.5px solid black;
+    width: 100%;
+}
+.quizQuestion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.opt1{
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.opt2{
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.opt3{
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.opt4{
+    border: 1px solid black;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nextbtn{
+    padding: 5px 25px 5px 25px;
+    margin-bottom: 10px;
+    display: none;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
