@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inddex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="weatherCard">
+            <div class="searchCountry">
+                <input type="text" name="countryName" placeholder="Enter your city" spellcheck="false" id="countryName">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <img class="weatherImage" src="weather-app-images/clear.png" alt="image">
+            <div class="temprature">
+                <h1 class="temp">32°C</h1>
+                <h1 class="couname">India</h1>
+            </div>
+            <div class="extraInfo">
+            <div class="humidity">
+                <div class="humidityIcon">
+                    <img src="weather-app-images/humidity.png" alt="humidity Image">
+                    <h2>64%</h2>
+                </div>
+                <h2>Humidity</h2>
+            </div>
+            <div class="windSpeed">
+                <div class="windSpeedImage">
+                    <img src="weather-app-images/wind.png" alt="">
+                    <h2>18 Km/h</h2>
+                </div>
+                <h2>Wind Speed</h2>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js" ></script>
+</body>
+</html>
